@@ -3,11 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Install the following dependencies
- npm i axios
- npm install react-multi-carousel
-npm install react-responsive-carousel
- npm install react-router-dom
- npm install react-icons
+```bash
+     npm i axios react-multi-carousel react-responsive-carousel react-router-dom react-icons
+```
+
 
  ### Add the .env file
 
