@@ -1,31 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Install the following dependencies
+# Zintlr News
+
+A react project for Zintlr News
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`React_App_NewsApi2`
+
+
+
+## Run Locally
+
+Clone the project
+
 ```bash
-     npm i axios react-multi-carousel react-responsive-carousel react-router-dom react-icons
+  git clone https://github.com/preetiguragol/Internship_Zintlr.git
 ```
 
-
- ### Add the .env file
+Go to the project directory
 
 ```bash
-     npm start
+  cd Internship_Zintlr
 ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install dependencies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+  npm i axios react-multi-carousel react-responsive-carousel react-router-dom react-icons
+```
 
-<img width="960" alt="Screenshot 2023-08-28 174339" src="https://github.com/preetiguragol/Internship_Zintlr/assets/108183476/195ea86c-f054-444f-8863-aaa5fa12e5f5">
-<img width="146" alt="Screenshot 2023-08-28 174240" src="https://github.com/preetiguragol/Internship_Zintlr/assets/108183476/86125829-30c0-48cd-9113-01d515bf05c3">
+Start the server
+
+```bash
+  npm start
+```
+
+Open http://localhost:3000 to view it in your browser.
+
+
+## Screenshots
+<img width="960" alt="Screenshot 2023-08-28 174339" src="https://github.com/preetiguragol/Internship_Zintlr/assets/108183476/ffde0420-ad02-4085-8f0f-310cea359ee9">
 
 
 
 
+<img width="146" alt="Screenshot 2023-08-28 174240" src="https://github.com/preetiguragol/Internship_Zintlr/assets/108183476/138c32f9-5925-48ed-b85e-e2d5bc40961a">
 
 
 
