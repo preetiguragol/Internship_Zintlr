@@ -28,7 +28,7 @@ const NewsItems = ({}) => {
       const [newsData, setNewsData] = useState([]);
   
   useEffect(() => {
-    const apiKey = process.env.React_App_NewsApi2;
+    const apiKey = process.env.React_App_NEWS_API2;
     const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
 
     axios.get(apiUrl)
