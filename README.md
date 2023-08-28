@@ -9,7 +9,7 @@ A react project for Zintlr News
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`React_App_NewsApi2`
+`React_App_NEWS_API2`
 
 
 
