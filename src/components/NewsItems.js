@@ -58,6 +58,7 @@ const NewsItems = ({}) => {
         ></img>
         <h3 className="cricket">{newsItem.title}</h3>
         <p className="cricketdes">{newsItem.description}</p>
+        
       </a>
     ))}
     </Carousel>

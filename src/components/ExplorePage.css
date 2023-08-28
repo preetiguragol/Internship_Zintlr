@@ -1,0 +1,37 @@
+
+.vertical-carousel {
+    display: flex;
+align-items: center;
+   
+    flex-direction: column;
+    height: 100%; 
+    overflow: hidden;
+    
+    
+  }
+  .verticalimg{
+    height:500px;
+    width:500px;
+    margin-bottom:10px;
+    
+  }
+  .whole{
+    background-color: rgb(208, 206, 206);
+  }
+  @media (max-width: 768px) {
+    vertical-carousel {
+        display: flex;
+    align-items: center;
+       
+        flex-direction: column;
+        height: 100%; 
+        overflow: hidden;
+    }
+    .verticalimg{
+        height:500px;
+        width:500px;
+        margin-bottom:10px;
+        
+      }
+  }
+  

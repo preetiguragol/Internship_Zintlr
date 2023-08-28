@@ -14,6 +14,8 @@ const TopStoriesCard = ({ newsItem }) =>
         <div className="card-content">
         <h2 className="card-title">{newsItem.title}</h2>
         <p className="card-description">{newsItem.description}</p>
+        <p className='card-author'>{newsItem.author}</p>
+       
         </div>
       <div className="card-image">
         

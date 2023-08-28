@@ -1,25 +1,24 @@
-import TopStories from './components/TopStories';
-import Header from './components/Header';
-import NewsItems from './components/NewsItems';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import ExplorePage from './components/ExplorePage'; 
 
 import './App.css';
-import Explore from './components/Explore';
+import Main from './components/Main';
 
 function App() {
   return (
-    <div className='background'>
-      
-    <Header/>
-    <NewsItems/>
-    <TopStories/>
-    <Explore />
-      
     
-      
-      
-    
-    </div>
-    
+        <Router>
+        <div>
+          <section>                              
+              <Routes>  
+                 <Route path="/" element={<Main/>}/>
+                 <Route path="/explorepage" element={<ExplorePage/>}/>
+              </Routes>                    
+          </section>
+        </div>
+      </Router>
   );
 }
 

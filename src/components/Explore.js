@@ -5,7 +5,7 @@ import { MdOutlineTravelExplore } from 'react-icons/md';
 
 const Explore = () => {
   return (
-    <Link to="/Explorepage" className="explore-button">
+    <Link to="/explorepage" className="explore-button">
       <MdOutlineTravelExplore />
     Explore
     </Link>
