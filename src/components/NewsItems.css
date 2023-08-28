@@ -1,0 +1,71 @@
+.cricketcard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 280px;
+    margin: auto 1rem;
+    text-align: center;
+    font-family: arial;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    height: 100%;
+    transition: background-color 0.3s; 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .cricketimg {
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .cricket {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    color: white;
+    margin: 0;
+    font-size: 13px;
+    transition: background-color 0.3s; 
+    overflow: auto;
+  }
+  
+  .cricketdes {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(250, 248, 248, 0.8);
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    margin: 0;
+    transition: background-color 0.3s; 
+    transform: translateY(100%); 
+    opacity: 0; 
+    overflow:auto;
+  }
+  
+  .cricketcard:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .cricketcard:hover .cricket,
+  .cricketcard:hover .cricketdes {
+    overflow: auto;
+    font-weight: 500;
+    opacity: 0;
+  }
+  
+  .cricketcard:hover .cricketdes {
+    top: 70%;
+    transform: translateY(0); 
+    opacity: 1; 
+  }
+  
