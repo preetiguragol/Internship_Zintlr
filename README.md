@@ -2,9 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+### Install the following dependencies
+ npm i axios
+ npm install react-multi-carousel
+npm install react-responsive-carousel
+ npm install react-router-dom
+ npm install react-icons
 
 ### `npm start`
 
@@ -13,6 +16,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
+
+### Add the .env file
+
 
 ### `npm test`
 
