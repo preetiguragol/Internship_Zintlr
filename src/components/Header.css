@@ -13,6 +13,8 @@ font-size:1.5rem;
 cursor:pointer;
   }
   .heading{
+    display:center;
+    align-content: center;
     text-align:center;
     flex-grow:1;
   }

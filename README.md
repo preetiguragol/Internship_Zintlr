@@ -1,8 +1,8 @@
 
 
-# Zintlr News
+# Daily News
 
-A react project for Zintlr News
+
 
 
 ## Environment Variables
