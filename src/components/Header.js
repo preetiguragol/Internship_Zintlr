@@ -7,7 +7,7 @@ const Header = () => {
       <div className='menu-icon'>
         <FaBars/>
       </div>
-      <h1 className="heading">Zintlr News</h1>
+      <h1 className="heading">Daily News</h1>
       <div className="search-icon">
       <FaSearch/>
       </div>
